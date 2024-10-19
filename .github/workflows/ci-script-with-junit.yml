@@ -39,7 +39,7 @@ jobs:
     - name: Make hyperlink to jar-war file    # Tạo hyperlink để download build 
       uses: actions/upload-artifact@v4
       with:
-          name: click-me-to-get-file    # Hyperlink để download build, app
+          name: click-me-to-get-file-jar   # Hyperlink để download build, app
           path: staging
 
 # End of CI workflow file. 
