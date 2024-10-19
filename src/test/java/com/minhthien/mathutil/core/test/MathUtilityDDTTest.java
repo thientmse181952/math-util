@@ -36,7 +36,7 @@ class MathUtilityDDTTest {
     // test case #... : check getFactorial() with right arguments and runs ell
     //                                         n = 0 1 2 3 4 ... 18 19 20
     public static Object[][] initRightDataSet() {
-        return new Object[][]{{0, 1}, {1, 1}, {2, 2}, {3, 6}, {4, 24}, {5, 120}, {6, 7200}};
+        return new Object[][]{{0, 1}, {1, 1}, {2, 2}, {3, 6}, {4, 24}, {5, 120}, {5, 120}, {6, 720}};
     }
 
     @ParameterizedTest
